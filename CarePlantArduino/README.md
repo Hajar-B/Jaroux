@@ -31,5 +31,5 @@ Exemple :
 - Capteur de niveau d'eau : quand le réservoir est vide, le capteur renvoie des valeurs <25, quand on ajoute 2mm d'eau le capteur renvoie des valeurs comprises entre 410 et 420, quand on est à la moitié du réservoir le capteur renvoi des valeurs entre 488 et 532 et quand il est plein, on a des valeurs qui ne dépasse pas pas les 600 (alors qu'one est censé aller jusqu'à 1023 et ce soit des valeurs très proches que celle qu'on obtient quand le réservoir est à moitié plein).
 - Capteur d'humidité : quand le capteur est planté dans de la terre sèche -> valeur entre 923 et 985, quand le capteur est plongé dans l'eau -> valeur entre 537 et 586 (alors qu'on devrait etre provhe de 0), quand le capteur est dans le sol humide -> valeurs entre 430 et 577 (ce qui est encore plus bah que quand le capteur est dans l'eau).
 
-#### ESP32
+### ESP32
 Pour envoyer des données depuis notre base de donnée vers l'arduino, on voulait utiliser l'ESP32, mais on n'arrive pas à téléverser le code vers l'ESP32.
