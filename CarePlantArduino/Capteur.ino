@@ -1,5 +1,3 @@
-### Code
-```C
 const int Temp = A0;
 const int Level = A1;
 const int Hum = A2;
@@ -50,5 +48,3 @@ void loop()
   Serial.println(humidite);
   delay(10000);
 }
-
-```
